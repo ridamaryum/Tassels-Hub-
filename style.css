@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     text-decoration: none;
-    overflow: hidden;
 }
 
 header{
@@ -152,6 +151,8 @@ header{
 
 .sec div{
     display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
