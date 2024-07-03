@@ -139,7 +139,7 @@ header{
     letter-spacing: 0.7px;
 }
 
-.middle{
+.middle,.end{
     margin: 60px 150px;
 }
 
@@ -253,5 +253,227 @@ header{
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+}
+
+
+.first img{
+    width: 120px;
+    height: 32px;
+}
+
+.sec-5{
+    display: flex;
+    margin: 90px 0;
+    padding: 40px 0;
+    justify-content: center;
+    background-color: rgb(255, 248, 248);
+}
+
+.flex{
+    display: flex;
+}
+
+.contact{
+    width: 760px;
+    overflow: hidden;
+}
+
+.contact img{
+    width: 250px;
+    height: 450px;
+    padding-right: 40px;
+}
+
+.address{
+    width: 470px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.address p{
+    padding-bottom: 10px;
+    font-size: 0.95rem;
+    color: rgb(92, 91, 91);
+}
+
+.address h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+    padding-bottom: 20px;
+}
+
+.radio label{
+    font-size: 1.1rem;
+    color: rgb(49, 49, 49);
+}
+
+.radio [type="radio"]{
+    accent-color: rgb(255, 92, 92);
+}
+
+.email{
+    position: relative;
+}
+
+.email input{
+    height: 46px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(184, 183, 183);
+    outline:  rgb(255, 92, 92);
+    font-size: 1.3rem;
+    padding-left: 15px;
+}
+
+.place{
+    position: absolute;
+    font-size: 1.3rem;
+    left: 15px;
+    top: 13px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.email button{
+    width: 150px;
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid #ef4f5f;
+    background-color: #ef4f5f;
+    font-size: 1.1rem;
+    margin-left: 6px;
+    color: white;
+}
+
+.download{
+    font-size: 0.7rem;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.app img{
+    width: 137px;
+    height: 40px;
+}
+
+.sec-6{
+    margin-bottom: 110px;
+}
+
+.sec-6 h1{
+    font-size: 1.9rem;
+    font-weight: bolder;
+    color: rgb(31, 31, 31);
+}
+
+.sec-6 h4{
+    font-size: 1.4rem;
+    font-weight: lighter;
+    color: black;
+}
+
+.sec-6 a{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.95rem;
+}
+
+.sec-6 i{
+    font-size: 0.3rem;
+    padding: 6px 5px;
+    color: gray;
+}
+
+.end-coloumn a{
+    width: 190px;
+    font-size: 1rem;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 15px 0;
+}
+
+
+.sec-7{
+    padding: 40px 120px;
+    background-color: rgb(244, 244, 251)
+}
+
+.first-img{
+    color: black;
+    width: 120px;
+    height: 32px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-1{
+    display: flex;
+}
+
+.first-1 span{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.second div{
+    width: 200px;
+    color: rgb(22, 22, 22);
+    white-space: nowrap;
+       
+}
+
+.second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.second img{
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.box4{
+    display: flex;
+    flex-direction: column;
+}
+
+.box4 i{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.third{
+    padding: 10px 0;
+    color: gray;
+    font-weight: bold;
+    font-size: 0.9rem;
 }
 
